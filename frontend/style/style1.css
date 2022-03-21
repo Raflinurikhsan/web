@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-color: #383e65;
+    height: 60vh;
+    background-image: url(/frontend/images/remain\ agile.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 35px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+.contents{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+}
+.contents h1{
+    color: #fff;
+    font-size: 45px;
+}
+.color{
+    color: aqua;
+}
+.contents p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    top: 120%;
+    left: 23%;
+    margin-top: 60px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 3px solid #ffd500;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #ffd500;
+    color: #fff;
+}.button.active{
+    background-color: #ffd500;
+    color: #fff;
+}
+section {
+	padding:50px 0;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #148F77;
+	margin-bottom: 25px;
+}
+#boxes{
+    color: #fff;
+    background-color: #383e65;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img{
+	width: 300px;
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+footer {
+	padding:30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
